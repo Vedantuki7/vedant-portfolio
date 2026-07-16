@@ -61,27 +61,39 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "Full Stack AI SaaS Platform",
-            category: "Full Stack / AI",
-            technologies: "React, Node.js, Stripe, Serverless",
-            image: "/images/project-1.webp",
-            description: "A cloud-hosted SaaS application for AI-based image transformation. Integrated secure usage-based payments with Stripe and achieved 99.9% uptime via serverless deployment and automated workflows."
+            title: "Wealth Agent Application",
+            category: "Full Stack",
+            technologies: "Next.js, FastAPI, PostgreSQL, Redis, Docker",
+            image: "/images/wealth-agent.webp",
+            description: "A full-stack personal finance and wealth management platform with an interactive dashboard, budget tracking, auto-categorized transactions, and a Redis-backed background worker.",
+            github: "https://github.com/Vedantuki7/wealth-agent"
         },
         {
             id: 2,
-            title: "Real-Time Collaboration Dashboard",
-            category: "Full Stack",
-            technologies: "React.js, Node.js, Express.js, MongoDB, WebSocket",
-            image: "/images/project-2.webp",
-            description: "A live real-time dashboard with WebSocket-powered updates and JWT-secured messaging, plus detailed activity logging for full system auditability."
+            title: "Slack AI Invoice Bot",
+            category: "AI / Backend",
+            technologies: "Python, FastAPI, Gemini 2.0, Supabase, Slack Bolt",
+            image: "/images/slack-invoice-bot.webp",
+            description: "An AI-powered Slack assistant that turns natural-language requests into structured invoice queries, using Gemini to route actions through a secured FastAPI + Supabase backend.",
+            github: "https://github.com/Vedantuki7/Slack-AI-Invoice-App"
         },
         {
             id: 3,
-            title: "Wealth Agent Application",
-            category: "Full Stack",
-            technologies: "React, Next.js, Node.js",
-            image: "/images/project-3.webp",
-            description: "A production-ready wealth management application with modern interactive dashboards, providing automated financial insights and secure data handling."
+            title: "AI Research & Writing Assistant",
+            category: "AI / RAG",
+            technologies: "Python, CrewAI, LangChain, FAISS, Streamlit",
+            image: "/images/ai-research-assistant.webp",
+            description: "A production-style RAG and multi-agent research system. Seven specialized CrewAI agents plus a FAISS knowledge base generate fact-checked, publication-ready articles.",
+            github: "https://github.com/Vedantuki7/ai-research-writing-assistant"
+        },
+        {
+            id: 4,
+            title: "Portfolio Website",
+            category: "Full Stack / 3D",
+            technologies: "React, TypeScript, Three.js, GSAP",
+            image: "/images/portfolio-website.webp",
+            description: "This site — a 3D developer portfolio with an animated character hero, scroll-driven GSAP animations, and a fully data-driven content system.",
+            github: "https://github.com/Vedantuki7/vedant-portfolio"
         }
     ],
     contact: {
