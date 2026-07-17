@@ -7,7 +7,7 @@ export const config = {
     },
     social: {
         github: "Vedantuki7",
-        email: "vedantukirde@gmail.com",
+        email: "vedantru2125@gmail.com",
         location: "Toronto, Ontario, Canada"
     },
     about: {
@@ -97,7 +97,7 @@ export const config = {
         }
     ],
     contact: {
-        email: "vedantukirde@gmail.com",
+        email: "vedantru2125@gmail.com",
         github: "https://github.com/Vedantuki7",
         linkedin: "https://linkedin.com/in/vedant-ukirde"
     },
