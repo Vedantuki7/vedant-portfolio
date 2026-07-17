@@ -105,13 +105,13 @@ export const config = {
         develop: {
             title: "BACKEND & CLOUD",
             description: "Scalable backend systems & cloud infrastructure",
-            details: "Building high-availability backend services and REST APIs with Node.js and Express. Deploying and scaling cloud-native systems with Docker, Kubernetes, and AWS, backed by MongoDB, PostgreSQL, and Redis.",
+            details: "High-availability backend services and REST APIs, deployed on cloud-native infrastructure with Docker and Kubernetes.",
             tools: ["Node.js", "Express.js", "TypeScript", "AWS", "Docker", "Kubernetes", "MongoDB", "PostgreSQL", "Redis", "CI/CD"]
         },
         design: {
             title: "FRONTEND",
             description: "Modern, responsive web interfaces",
-            details: "Building responsive and performant web applications using React, Next.js, and TypeScript. Creating seamless user experiences with modern UI/UX principles and real-time features.",
+            details: "Responsive, performant web applications with seamless UX and real-time features.",
             tools: ["React", "Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "WebSocket", "HTML5/CSS3", "Git"]
         }
     }
