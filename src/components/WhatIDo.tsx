@@ -28,9 +28,8 @@ const WhatIDo = () => {
   return (
     <div className="whatIDO">
       <div className="what-box">
-        <h2 className="title">
-          WHAT I{"\n"}DO
-        </h2>
+        <h2 className="title">WHAT I</h2>
+        <h2 className="title">DO</h2>
       </div>
       <div className="what-box">
         <div className="what-box-in">
